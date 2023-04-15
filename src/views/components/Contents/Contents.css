@@ -1,0 +1,21 @@
+#contents ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+#contents li {
+  width: 32%;
+}
+
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+@media screen and (max-width: 600px) {
+  #contents ul {
+    flex-direction: column;
+  }
+  #contents li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
